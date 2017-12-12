@@ -1,5 +1,11 @@
 # Tensor RNN
-Source code for tensor recurrent neural network (RNN), improving vanilla RNN w.r.t
+Source code for tensor recurrent neural network (TRNN)
+
+[Paper](https://arxiv.org/abs/1711.00073)
+[NIPS post](http://roseyu.com/Materials/nips17-tsw-poster.pdf)
+
+
+improving vanilla RNN w.r.t
 
 1. high-order Markov process
 
@@ -7,7 +13,7 @@ Source code for tensor recurrent neural network (RNN), improving vanilla RNN w.r
 
 3. dimension reduction with tensor network model
 
-
+files
 - reader.py 
 read the data into train/valid/test datasets, normalize the data if needed
 
